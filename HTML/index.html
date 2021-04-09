@@ -16,19 +16,29 @@
     :5500, port # of which web server is listening
     /index.html, file name
     -->   
-
     <title>My First Webpage</title>
+
+<style>
+    img{
+        width: 100px;
+        border-radius:50px; /* round img sharp edges*/
+        /*if you set border-radisu to 1/2 of width = round image*/
+        float: left; /*pushes img to left side, text to right thereof*/
+        margin-right: 10px;/*space between img and paragraph test */
+    
+    }
+    .username { /*target paragraph element with class='username'*/
+        font-weight: bold;
+    }
+</style>
 </head>
 <body>
     <!--img,no closing tag, cannot have child elements
     -src, source, src represents path to image
     -alt, alternative text
-    
     -->
-
-
     <img src="astra-rai-profile-picture-twitter.jpg">
-    <p>@astrarai</p>
+    <p class="username">@astrarai</p>
     <p>I love learning how to code!</p>
 </body>
 </html>
