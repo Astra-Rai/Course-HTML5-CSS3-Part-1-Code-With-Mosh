@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head element gives browser information about page-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <title>HTML5 Basics | 6 Images</title>
+    <!--
+    
+        - in real case scenario, class should be added to img tag and used to target img styling
+        - img looks squashed, it is vertically squashed, issue initial image rectangle, we converted to square
+        - width: 200px; height: 200px; 
+        - used dev tool, inspect element, disabled height property and squashed appearences disappears
+        - use object fix in css, set to cover so imgs covers its containing bock 
+        - object-fit: cover, img resized, potentially cropped so it covers entire containing box 
+    --> 
+
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <!--
+
+    image from unsplash, downloaded smaller image
+    - use img alt attribute to provide textual description for img:
+        - 1. some use screen reader due to visual imariment
+        - 2. if image is not loaded, alt text is loaded, if user disconnected, a networking issue, user can still read alt text
+        - 3. help search engines read text 
+    
+
+    image name: important for SEO and indexing w/Google
+    
+    -->
+    
+    
+    
+    <img src="images/coffee.jpg" alt="A coffee mug on a table ">
+
+
+</body>
+</html>
+
+
+
+
+
+
+
