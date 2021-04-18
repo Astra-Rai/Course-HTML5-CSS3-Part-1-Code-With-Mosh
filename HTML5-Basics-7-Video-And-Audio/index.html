@@ -12,16 +12,12 @@
     width only added to video element, b/c browser calcualtes height...
     based on aspect ratio of the video
 -->  
-    
     <style>
-
 
         video{
             width:200px;
         }
     </style>
-
-
 </head>
 
 <body>
@@ -33,10 +29,31 @@
     - use video attribute controls to show buttons
     - HTML boolean value, true if present, if absent, false, do not set value
     .... controls 
+    - doesn't ?? doesn't autoplay, but does loop
 -->  
 
-<video src="videos/ocean.mp4"></video>
+<video controls autoplay loop src="videos/ocean.mp4"></video>
+<!--go to caniuse.com to see which browsers and version support html element media properties-->
+<!--
+    video element media  properties:
+        - current Src
+        - current time
+        - paused
+        - playbackRate
+        - buffered
+        - duration
+        - played
+        - seekable
+        - ended
+        - autoplay
+        - loop
+        - controls
+        - volument& muted
 
+        Safari and Chrome on Desktop do not like DOM manipulation around the video tag. They will not fire the play order when the autoplay attribute is set even if the canplaythrough event has fired 
+        the DOM around the video tag has changed after initial page load.
+        (source: stackoverflow)
+    -->
 </body>
 </html>
 
