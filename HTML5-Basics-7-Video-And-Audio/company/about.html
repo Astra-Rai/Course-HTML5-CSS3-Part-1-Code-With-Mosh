@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About HTML Page</title>
+</head>
+<style>
+    img{
+        width: 100px;
+        border-radius:50px; /* round img sharp edges*/
+        /*if you set border-radisu to 1/2 of width = round image*/
+        float: left; /*pushes img to left side, text to right thereof*/
+        margin-right: 10px;/*space between img and paragraph test */
+    
+    }
+    .username { /*target paragraph element with class='username'*/
+        font-weight: bold;
+    }
+</style>
+<body>
+    <!--
+        
+        - from the about page add link back to home page, index.html
+        -. currently we're in the company folder, the about.html is in the company folder
+        - 
+    -->
+    <a href="/index.html">Home Page</a>
+
+    <h1> About Me</h1>
+
+    <!--img,no closing tag, cannot have child elements
+    -src, source, src represents path to image
+    -alt, alternative text
+    -->
+    <img src="/images/astra-rai-profile-picture-twitter.jpg" alt="profile picture for twitter of Astra Rai">
+    <p class="username">@astrarai</p>
+    <p>I love learning how to code!</p>
+</body>
+</html>
+
+
+
