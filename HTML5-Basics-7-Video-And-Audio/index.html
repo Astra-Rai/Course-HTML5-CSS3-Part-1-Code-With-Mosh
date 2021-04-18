@@ -33,7 +33,12 @@
 -->  
 
 <video controls autoplay loop src="videos/ocean.mp4"></video>
-<!--go to caniuse.com to see which browsers and version support html element media properties-->
+<!--
+    - go to caniuse.com to see which browsers and version support html element media properties
+    - Make a note under video element code line to inform user that their browser may not support videos
+-->
+Your Browser doesn't support videos
+
 <!--
     video element media  properties:
         - current Src
@@ -48,7 +53,7 @@
         - autoplay
         - loop
         - controls
-        - volument& muted
+        - volume & muted
 
         Safari and Chrome on Desktop do not like DOM manipulation around the video tag. They will not fire the play order when the autoplay attribute is set even if the canplaythrough event has fired 
         the DOM around the video tag has changed after initial page load.
