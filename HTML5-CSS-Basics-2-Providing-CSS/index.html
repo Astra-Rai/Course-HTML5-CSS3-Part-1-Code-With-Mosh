@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 
+        
+        link style sheet: styles.css, index.html
+        
+        - rel, relationship: determines type of resource we're linking the html document to
+        - relative url, external stylesheet and index.html file are in the SAME folder
+        - relatie url: style.css
+        - link element is a self-closing element
+        - sometime we want to override files in an external sytle sheet: rules defined within styles tags override link rel stylesheet
+        css, link rel, override styles, using ids
+        - external stylehseet does not override html css inline styles
+        - embedded style sheets are not scableable, doesn't fall in line w/seperation of concerns concept
+        - seperate styling (css) from foundation / structure (HTML)
+        <style>
+            p {
+        color: black;
+        }
+        </style>
+
+    -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--example of inline style-->
+    <p style="color: blue; font-weight: bold">Lorem ipsum dolor sit amet.</p>
+    <!--make second paragraph purple use id-->
+    <p id="second-paragraph">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
+<!--
+     Ways to provide CSS, notes:
+
+    - Embedded stylesheets: include styles in HTML document, <style> tags
+    - External Stylesheets: write styles in seperate styles
+    - Inline style: adding styles directly to particular HTML element
+-->
