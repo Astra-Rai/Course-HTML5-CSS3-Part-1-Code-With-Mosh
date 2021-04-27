@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--
+        - css folder added to root folder
+        - styles.css file moved to css folder, therefore...
+        - change href-"styles.css" to "css/styles.css"
+    
+        - normalize css: https://necolas.github.io/normalize.css/
+        - makes browsers render all elements more consistently 
+            and in line with modern standards. It precisely targets only the styles that need normalizing.->
+        - got to page and save link as, add file to root folder
+        -->
+ 
+        <link rel="stylesheet" href="css/normalize.css">  
+    <link rel="stylesheet" href="css.styles.css">
+</head>
+<body>
+    <!--
+        normalize css check:
+        
+        - check if normailize css is working by margin left text spacing
+        - if text is flushed left, normalize isn't working b/c there should be a bit of space    
+    -->
+
+    <!--example of inline style-->
+    <p style="color: blue; font-weight: bold">Lorem ipsum dolor sit amet.</p>
+
+    <!--make second paragraph purple use id-->
+    <p id="second-paragraph">Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>
+
