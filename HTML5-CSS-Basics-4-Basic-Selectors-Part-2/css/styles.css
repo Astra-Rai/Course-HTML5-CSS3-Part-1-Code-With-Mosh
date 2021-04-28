@@ -1,0 +1,13 @@
+
+
+/*
+
+- stying elements by attributes
+- a[target] {}, checking for existance of target attribute
+- a[target ="_blank"]  , check for target attribute and value
+
+*/
+
+a[target] {
+  color:red;
+}
