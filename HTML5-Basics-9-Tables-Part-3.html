@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      /* border for entire table, border needed around each cell*/
+      /* apply style to both table and td elements. Remember Don't Repeat Yourself*/
+      table,
+      td {
+        border: 1px solid grey;
+
+        /* border collapse, remove space between border and neighboring cells */
+
+        border-collapse: collapse;
+      }
+      /*
+td {
+    border: 1px solid grey;
+}
+*/
+    </style>
+  </head>
+  <body>
+    <!--table element represents tabular data-->
+    <table>
+      <!-- tr, table row element, can have one or more cells: data cells or header cells -->
+      <tr>
+        <td>Marketing</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>Accounting</td>
+        <td>$200</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+<!--
+    - tables data, data table and row, 
+    - dry code
+    - header cells define what each column represents
+    - data cells contatin data
+-->
