@@ -1,0 +1,27 @@
+/*
+    - checking for exact match, code like this is fragile
+
+    a[href="https://google.com"] {
+    color: orange;
+    }
+
+    - check for jus the word 'google'
+    - any link with the word goodle this works on..
+    - if any characters are added to link or /, stying is still targeted for example:
+    - https://marketingplatform.google.com/about/analytics/
+
+    a[href*="google"] {
+    color: tomato;
+    }
+    
+/* check if attribute starts w/a given value use carrot */
+/* check if attribute ends  w/a given value use dollar sign */
+
+a[href^="https"] {
+    color: powderblue;
+}
+/* ahref attribute should begin w/https and end in.com */
+a[href^="https"][href$=".com"] {
+    color: orange;
+}
+
