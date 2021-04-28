@@ -1,0 +1,19 @@
+
+/* 
+
+    - id attribute targets one element, class can target more than one 
+    - we cannot have muliple elements w/same id, but can have multi elements w/same class
+
+*/
+
+/* style section element w/id="products" */
+
+#products{
+
+}
+
+/* style each product */
+
+.product {
+
+}
