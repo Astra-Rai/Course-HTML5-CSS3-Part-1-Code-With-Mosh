@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      /* border for entire table, border needed around each cell*/
+      /* apply style to both table and td elements. Remember Don't Repeat Yourself*/
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+
+        /* border collapse, remove space between border and neighboring cells */
+        border-collapse: collapse;
+
+        /* padding: space around data in cells */
+        padding: 5px;
+      }
+      
+      tfoot { 
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!--table element represents tabular data-->
+    <table>
+      <!-- tell search engine and screen reader table has: header and body -->
+      <thead>
+        <tr>
+          <!--expand cell for span of two columns, default value 1-->
+          <th colspan="2">Expenses</th>
+        </tr>
+
+        <tr>
+          <!--th cells don't have border or padding, data cells do -->
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--header added to table, in tr, add th element to define header cells-->
+        <!-- tr, table row element, can have one or more cells: data cells or header cells -->
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <!--add table footer-->
+      <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+
+<!--
+
+    - notes, by default, header cells text bold, aligned center
+    - data cells, text aligned left and not bold
+
+-->
+
+
+
+
+
