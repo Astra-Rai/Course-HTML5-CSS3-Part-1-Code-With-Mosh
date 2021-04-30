@@ -1,0 +1,15 @@
+
+/* strong element inherits color from paragraph, which is parent element */
+
+p{
+    color:dodgerblue;
+}
+
+/*  - stop inheritence, set value to initial 
+    - this sets strong element content back to defualt color: black
+    - the initial CSS keyword applies the initial (or default) value of a property to an element.   
+*/
+
+strong {
+    color: initial;
+}
