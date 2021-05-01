@@ -1,0 +1,35 @@
+
+
+/*  Bgcolor is for the whole HTML document whereas background is for a single HTML page. 
+    It is used to establish the the background color of an paragraph, table or any HTML which is recommended the moderate usage of this tag. 
+    With the help of CSS, it can establish the text styles or links
+
+    -background can override background color
+*/
+
+.box{
+    width: 300px;
+    height: 200px;
+    
+    /* background-color: hsl(53, 100%, 40%); */
+    /* background-color select using color picker in dev tools, copy paste, note different in format */
+    
+    background-color:hsl(53deg 100% 50%);
+
+}
+
+/*
+
+HSL System (Hue, Staturation, Lightness)
+- 1st value:  degree of color on standard color wheel, it determines tone of color
+- 2nd valueof saturation, a number b/t zero and 100
+- 3rd lightness: lighter, decrease number: darker, increase lighter , used to create different shades of color
+- hsla, a value 0 -1
+- semi transparent box, set a value to 0.5
+
+*/
+
+
+
+
+
