@@ -1,0 +1,6 @@
+
+
+/* all paragraph elements w/in <section id="products"></section> will have the follow style */
+#products p{
+    color: tomato;   
+}
