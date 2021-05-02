@@ -1,0 +1,11 @@
+
+
+
+
+/* style child element of section element  */
+/* example of use of css descentant selector id */
+/* # represents id, products is an id of the section element */
+/* paragraph element is a child of section id="products"*/
+#products > p{
+    color: tomato;   
+}
