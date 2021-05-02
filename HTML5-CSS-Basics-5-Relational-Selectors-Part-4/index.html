@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ <!--link tags after closing title and header tags-->
+        <!--link to: normalize css in css folder-->
+        <link rel="stylesheet" href="css/normalize.css">  
+        <!--link to: styles, styles.css-->
+        <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<!--
+    Notes on cons of relational selectors:
+
+    1.) can be fragile b/c they are dependent upon location of elements in the DOM, if elements moved around code will break
+    2.) not as performat as basic selectors because how browsers read and execute selectors (4:05 mark of tutorial explains this)
+-->
+
+<body>
+    <!--
+        - emmet: 
+        - section#products>p>lorem5  
+        - where p is a child of the element section
+        - >lorem5 : generates 5 words in lorem ipsum within the p tags
+    -->
+  <section id="products">
+      <!--
+        - paragraph can be styled by targeting element, using an id, class, or relational selector
+        - paragraph element is a child elemnt of section element
+        - we can use the id=products of section element to style the child element - <p>
+        - CSS: #products > p { color: tomato;}
+        - styling applied to any <p> element w/in the <section id="products"></section> tags
+        -->
+      <p>Lorem ipsum dolor sit amet.</p>
+        <article>
+            <!--
+                - p element w/in article tags is still a child of section id="products"
+                - b/c p element is a child of section id="products", the following styles p element:
+                -   #products p{
+                     color: tomato;   
+                    }
+            -->
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+        <article>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+  </section>
+        <!--
+            - paragraph element after clostion tag of section id="products", p is a direct sibiling of section id="products"" 
+            - to select & style this <p> after closing </section>, use this CSS code:
+        -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <!-- paragraph is not tomato red as the first one is-->
+        <!-- to select all general sibilings of the product section use this CSS code:
+            
+        
+        -->
+        <p>Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>
