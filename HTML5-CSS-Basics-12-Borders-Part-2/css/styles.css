@@ -1,0 +1,21 @@
+/*
+    - 1st value: thickness
+    - 2nd value: style of border: solid, dash, dotted
+    - 3rd value: color
+    - border property is shorthand, takes values and applies to each side
+    - border-top, right, bottom, and left
+    - order of borders listed matters
+    - border-width, top, right, bottom left (trbl)
+    - 10px 20px is shorthand for: 10px 20px
+    - border-width: 10px, style applied to all borders
+    - one has full control of the width, style and color of border
+    - note: these are rarely used
+*/
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(1, 5, 10);
+    border: 3px dashed tomato; 
+    border-radius: 100%;/* if width and height the same, set border-radiusnto 100% and you'll get a circle*/
+}
