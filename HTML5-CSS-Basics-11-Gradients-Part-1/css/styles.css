@@ -1,0 +1,6 @@
+
+
+/* style p after </section> tag */
+#products + p{
+    color: tomato;   
+}
