@@ -1,0 +1,26 @@
+
+.box-1{
+    color: #ffffff;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+    /*1st argument will be the circle, circle at center */
+    background: radial-gradient(#FC766Aff, #5b84b1ff);
+
+}
+.box-2{
+    color: #ffffff;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left:20px;
+
+    /*1st argument will be the circle, circle at center */
+    background: radial-gradient(circle at top left,#FC766Aff, #5b84b1ff);
+}
+
