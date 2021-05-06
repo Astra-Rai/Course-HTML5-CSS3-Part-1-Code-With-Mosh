@@ -1,0 +1,61 @@
+:root {
+  --color-primary: tomato;
+  --height: 200px;
+  --width: 200px;
+  --border-radius: 100px;
+  --margin-bottom: 20px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.one{
+  background: var(--color-primary);
+  height: var(--height);
+  width: var(--width);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--margin-bottom);
+  list-style-type: var(--list-style-type);
+
+}
+
+.two{
+  background: var(--color-primary);
+  height: var(--height);
+  width: var(--width);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--margin-bottom);
+  list-style-type: var(--list-style-type);
+
+}
+
+.three{
+  background: var(--color-primary);
+  height: var(--height);
+  width: var(--width);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--margin-bottom);
+  list-style-type: var(--list-style-type);
+
+}
+
+.four{
+  background: var(--color-primary);
+  height: var(--height);
+  width: var(--width);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--margin-bottom);
+  list-style-type: var(--list-style-type);
+
+}
+
+.five{
+  background: var(--color-primary);
+  height: var(--height);
+  width: var(--width);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--margin-bottom);
+  list-style-type: var(--list-style-type);
+
+}
