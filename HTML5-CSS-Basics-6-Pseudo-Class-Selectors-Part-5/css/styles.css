@@ -1,0 +1,22 @@
+
+
+body{
+    margin: 10px;
+}
+/*
+    - apply style using a psuedo class
+    - pseudo classes are classes that browsers apply by default
+    - all pseudo classes start w/a colon : 
+    - for first paragraph and first h tag after  EVERY article element, css font size 140%, font-style: italic;
+    - use pseduo class :first-of-type
+    - article p: first-of-type, will only select the first p element of parent 
+    - article : first-of-type, will select both the first <h2> and first <p> tag of parent <article> ... i think this makes sense
+*/
+
+/* look at notes in index.html file */
+article :first-of-type {
+    font-size:140%;
+    font-style: italic;
+    color: red;
+}
+
