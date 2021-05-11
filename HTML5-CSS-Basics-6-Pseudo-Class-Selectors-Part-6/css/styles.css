@@ -1,0 +1,19 @@
+
+
+body{
+    margin: 10px;
+}
+/*
+    - apply style using a psuedo class
+    - pseudo classes are classes that browsers apply by default
+    - all pseudo classes start w/a colon:
+    - style last element of parent element: :last-child, :last-of-type 
+*/
+
+/* look at notes in index.html file */
+article :last-of-type {
+    font-size:140%;
+    font-style: bold;
+    color: orchid;
+}
+
