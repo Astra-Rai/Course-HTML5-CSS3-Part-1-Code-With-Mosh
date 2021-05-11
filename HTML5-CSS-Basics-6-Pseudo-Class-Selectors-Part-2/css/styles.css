@@ -3,13 +3,12 @@
 body{
     margin: 10px;
 }
-
 /*
     - for first paragraph, after  EVERY article element, css font size 140%, font-style: italic;
 */
 
-
-.first {
+article .first {
     font-size:140%;
     font-style: italic
 }
+
