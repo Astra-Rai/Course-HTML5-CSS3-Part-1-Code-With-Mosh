@@ -1,0 +1,19 @@
+
+
+body{
+    margin: 10px;
+}
+
+/*
+
+    - when using class selectors, best practice to drop element type...
+    - change p.first to .first
+    - if element type changes, our rules will not break
+    - rule below applies to any element w/the class of "first"
+
+*/
+
+.first {
+    font-size:140%;
+    font-style: italic
+}
