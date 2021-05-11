@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ <!--link tags after closing title and header tags-->
+        <!--link to: normalize css in css folder-->
+        <link rel="stylesheet" href="css/normalize.css">  
+        <!--link to: styles, styles.css-->
+        <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+<!--
+    - first child selector is somewhat fragile.
+    - if a heading was added direclty below <article>...
+    - this code does not work, b/c the 1st child is no longer <p>, <h2> is: 
+        article :first-child {
+        font-size:140%;
+        font-style: italic;
+}
+-->
+<article>
+    <h2>Lorem</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+</article>
+</body>
+</html>

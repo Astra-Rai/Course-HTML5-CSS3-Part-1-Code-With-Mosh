@@ -1,0 +1,21 @@
+
+
+body{
+    margin: 10px;
+}
+/*
+    - apply style using a psuedo class
+    - pseudo classes are classes that browsers apply by default
+    - all pseudo classes start w/a colon : 
+    - for first paragraph, after  EVERY article element, css font size 140%, font-style: italic;
+    - use pseduo class :first-child 
+    -  article (don't forget the space here) : first-child 
+*/
+
+
+/* look at notes in index.html file */
+article :first-child {
+    font-size:140%;
+    font-style: italic
+}
+
