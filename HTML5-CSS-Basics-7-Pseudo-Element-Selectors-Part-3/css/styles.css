@@ -1,0 +1,19 @@
+body{
+    margin: 10px;
+}
+
+
+/* select 1st line of <p> */
+
+p::first-line{    
+    font-size: 140%;
+    font-weight: bold;
+    color: dodgerblue;
+}
+    /*
+    
+    notes:
+        -  pseudo elements, two colons ::, used to style a part of an element
+        -  pseduo classes, one colon :, used to style elements at a particular state, for ex. a:hover
+        
+   */
