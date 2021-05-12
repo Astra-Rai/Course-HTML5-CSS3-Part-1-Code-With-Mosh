@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+}
+
+/*
+    - apply style using a psuedo class
+    - pseudo classes are classes that browsers apply by default
+    - all pseudo classes start w/a colon:
+    - ul li: nth-child(odd), selects all odd elements
+    - ul li: nth-child(even), selects all even elements
+    - ul li: nth-child(3n), selects every third elements
+*/
+
+/* look at notes in index.html file */
+article :last-child {
+    font-style: bold;
+}
+
+ul li:nth-child(odd){
+    color: deeppink;
+}
+
+a:visited{
+    color: dodgerblue; /* color of visted links set to dodgerblue */
+}
+a:hover{
+    color: deeppink;
+}
