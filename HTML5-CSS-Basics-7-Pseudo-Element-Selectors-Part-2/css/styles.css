@@ -1,0 +1,23 @@
+body{
+    margin: 10px;
+}
+
+
+/* .first-letter  */
+p::first-letter{    
+    font-size: 140%;
+    font-weight: bold;
+}
+
+/*
+    notes:
+
+   -  pseudo elements, two colons ::, used to style a part of an element
+   -  pseduo classes, one colon :, used to style elements at a particular state, for ex. a:hover
+
+*/
+
+
+
+
+
