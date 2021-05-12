@@ -1,0 +1,12 @@
+body{
+    margin: 10px;
+}
+
+
+/* put content, inline, before paragraph text */
+/* p::after*/
+
+p::before{
+    content:'...';
+    display:block;/* places ... at block-level instead of inline */
+}
