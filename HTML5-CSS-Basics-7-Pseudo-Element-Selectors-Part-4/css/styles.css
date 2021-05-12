@@ -1,0 +1,10 @@
+body{
+    margin: 10px;
+}
+
+
+/* change selection background color to pink for entire index.html document */
+
+::selection{
+    background-color: pink; 
+}
