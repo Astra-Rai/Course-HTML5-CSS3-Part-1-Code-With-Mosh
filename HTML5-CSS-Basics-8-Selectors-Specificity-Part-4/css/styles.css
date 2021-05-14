@@ -1,0 +1,19 @@
+body{
+    margin: 10px;
+}
+
+
+
+/*
+    - two selectors with equal specificity (weight)
+    - rule that comes last is applied
+    - heading color: brown
+*/
+
+#products{
+    color: green;
+}
+
+#products{
+    color:brown;
+}
