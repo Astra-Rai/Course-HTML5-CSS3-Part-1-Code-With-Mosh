@@ -1,0 +1,25 @@
+body{
+    margin: 10px;
+}
+/*
+
+- first number: represents # of id selectors
+- second number: represents number of classes/attribute selectors
+- thrid number: represents number of element selectors
+
+
+
+
+*/
+
+h1{ /*  <h1>  Selector Specificity: (0,0,1) Overall specificity = 1   */
+    color:dodgerblue;
+}
+
+.highlight{ /*  <element class="highlight> "Selector Specificity: (0,1,0) Overall specificity = 10  */
+    color: deeppink;
+}
+
+#products{/* <element id="products">   Selector Specificity: (1,0,0) Overall specificity = 100    */
+    color: green;
+}
