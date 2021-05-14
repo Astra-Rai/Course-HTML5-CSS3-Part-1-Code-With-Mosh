@@ -1,0 +1,39 @@
+body{
+    margin: 10px;
+}
+/*
+
+Notes on Specificity
+
+- first number: represents # of id selectors
+- second number: represents number of classes/attribute selectors
+- thrid number: represents number of element selectors
+*/
+
+/* 
+
+Notes on important property
+
+- use of important rule will override CSS rules that take precedence due to overall specificity 
+- Change in code: color: dodgerblue !important; 
+- Goal to make the header blue instead of green, without using the ! important property,
+- #products (1,0,0), 100 overall specificity
+- use of class AND id selector, 110 overalll specificity
+- .highlight#products{ color: doddgerblue}, see lines 37 - 39
+*/
+
+h1{ /*  <h1>  Selector Specificity: (0,0,1) Overall specificity = 1   */
+    color: dodgerblue;
+}
+
+.highlight{ /*  <element class="highlight> "Selector Specificity: (0,1,0) Overall specificity = 10  */
+    color: deeppink;
+}
+
+#products{/* <element id="products">   Selector Specificity: (1,0,0) Overall specificity = 100    */
+    color: green;
+}
+
+.highlight#products{
+    color: dodgerblue;
+}
