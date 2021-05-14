@@ -1,0 +1,41 @@
+body{
+    margin: 10px;
+}
+
+
+/* we can have many h1 elements, but not h1 elements will have the class of highligh */
+/*  targeting the h1 element, but not the class of the element*/
+/*  h1; Selector Spefificty  (0,0,1) = 1  */
+h1{
+    color: dodgerblue; /* element selector with property set to blue is crossed out when we inspect
+    b/c it's overridden by .highlight { color: deeppink }
+    */
+}
+
+/*  targeting the h1 element by class */
+/*  <element class="highlight">; Selector Specificty: (0,1,0) = 10 */
+.highlight{ 
+    color: deeppink;
+}
+/*
+    If multiple rules target the same element, the brower will apply the rule that it is more specific:
+
+    - ID selector: very specific, we cannot have two elements w/the same ID
+    - Class and attribute selectors: less specific than ID b/c we can have multiple elements with the same class or attribute
+    - Element Selector: b/c we can have many elements of a given type
+
+
+
+- element selector from normalize.css
+- normalize css stylesheet applies a couple of styles to h1 elements
+
+- element selector from user agent styleshee
+- default style that chrome applies to various user elements
+
+- every brower defines a set of styels for various html elements
+- this is why we use normalize.css, to normalize styles, so we start from a common ground
+
+
+
+
+*/
