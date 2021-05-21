@@ -1,0 +1,17 @@
+
+/*
+    -   box-shadow property
+    -   1st value: horizontal distance of the shadow to the element
+    -   1st value:+: shadow right | - value shadow left
+    -   2nd value: vertical distance of the shadow to the element
+    -   + value: shadow down | - value: shadow up
+    -   shadow color black by default
+*/
+
+
+.box {
+    width: 200px ;
+    height: 200px;
+    background: dodgerblue;
+    box-shadow: 10px 10px;
+}
