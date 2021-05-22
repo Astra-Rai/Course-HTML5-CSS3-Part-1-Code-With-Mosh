@@ -1,0 +1,69 @@
+:root {
+    --color-primary: dodgerblue;
+    --height: 200px;
+    --width: 200px;
+    --border-radius: 5px;
+    --margin-bottom: 40px;
+    --margin-left: 50px;
+}
+
+.box-1 {
+   
+    background: var(--color-primary);
+    height: var(--height);
+    width: var(--width);
+    border-radius: var(--border-radius);
+    margin-left: var(--margin-left);
+    margin-bottom: var(--margin-bottom);
+    box-shadow: 0 0 20px rgba(156, 152, 152, 0.3) 
+  
+}
+
+.box-2 {
+
+    background: var(--color-primary);
+    height: var(--height);
+    width: var(--width);
+    border-radius: var(--border-radius);
+    margin-left: var(--margin-left);
+    margin-bottom: var(--margin-bottom);
+    box-shadow: 0 0 20px rgba(156, 152, 152, 0.3);
+    /* 20px determines how much we want to blur the shadow */
+    /* changed vertical and horizontal shadow to 0 */
+    /*  shadow placed under box,thrid value makes shadow softer */
+}
+
+div.box-1 h1{
+    color: #ffffff;
+    padding-top: 20px;
+    /*move shadow: 3px right, 3px down, 5px soft, set color to grey*/
+    margin-left: 40px;
+    text-shadow: 3px 3px 5px grey;
+}
+
+div.box-2 h1 {
+        color: #ffffff;
+        padding-top: 20px;
+        /*move shadow: 3px right, 3px down, 5px soft, set color to grey*/
+        margin-left: 40px;
+        text-shadow: 3px 3px 5px grey;
+}
+
+/* use rbga function in box-shadow property, to make more transparent shadow*/
+/*
+    - The rgba() function define colors using the Red-green-blue-alpha (RGBA) model.
+    - RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity of the color
+
+    - Defines the opacity as a number between 0.0 (fully transparent) and 1.0 (fully opaque)
+- softer shadown comparision using rbga function
+    -   box-shadow property
+    -   1st value: horizontal distance of the shadow to the element
+    -   1st value:+: shadow right | - value shadow left
+    -   2nd value: vertical distance of the shadow to the element
+    -   + value: shadow down | - value: shadow up
+    -   shadow color black by default
+*/
+
+
+
+
