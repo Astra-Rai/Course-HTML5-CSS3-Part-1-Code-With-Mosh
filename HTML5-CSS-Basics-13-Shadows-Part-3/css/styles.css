@@ -26,7 +26,7 @@
     border-radius: var(--border-radius);
     margin-left: var(--margin-left);
     margin-bottom: var(--margin-bottom);
-    box-shadow: 0 0 20px rgba(156, 152, 152);
+    box-shadow: 0 0 20px rgba(156, 152, 152, 0.3);
     /* 20px determines how much we want to blur the shadow */
     /* changed vertical and horizontal shadow to 0 */
     /*  shadow placed under box,thrid value makes shadow softer */
